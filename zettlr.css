@@ -1,0 +1,50 @@
+/* Enter your custom CSS here */
+body.win32 #menubar {
+    background-color:#333333;
+    background-image: none;
+    padding-left: 0;
+  }
+  
+  /* 文字色 */
+ * {
+    color: #cccccc;
+  }
+  
+  /* エディタ背景色 */
+  .ͼ1.cm-editor {
+    background-color:#1f1f1f;
+  }
+  
+  /* パネル背景色 */
+  body.win32.dark #file-tree {
+    background-color:#181818;
+  }
+  
+  body #file-tree {
+    background-color:#181818;
+  }
+  
+  /* 文字色 */
+  body.dark a {
+    color: #7785bf;
+  }
+  
+  .cm-code-mark {
+    color:var(--system-accent-color, --c-primary);
+  }
+  
+  .cm-editor .cm-strong {
+    color:#cd9264;
+  }
+  
+  .cm-editor .cm-emphasis {
+    color:#14d4ff;
+  }
+  
+  .cm-strong.cm-code-mark {
+    color:#14141d !important;
+  }
+  
+  .cm-emphasis.cm-code-mark {
+    color:#14141d !important;
+  }
